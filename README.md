@@ -1,6 +1,6 @@
 # CiteProc-PUB
 
-CiteProc-PUB is a wrapper for [CSL](http://citationstyles.org/)  deployment in the intsitutional repository [PUB -- Publikationen an der Univeristät Bielefeld](http://pub.uni-bielefeld.de/).
+CiteProc-PUB is a wrapper for [CSL](http://citationstyles.org/)  deployment in the intsitutional repository [PUB -- Publikationen an der Universität Bielefeld](http://pub.uni-bielefeld.de/).
 
 ## Processor
 
@@ -8,7 +8,7 @@ It resuses [citeproc-php](https://bitbucket.org/rjerome/citeproc-php), a PHP imp
 
 ## Styles
 
-Due to local needs at the Univeirsty, we've decided to work with a local copy and a subset of the CSL Style repository available.
+Due to local needs at the Univeirsty, CiteProc-PUB works with a local copy and a subset of the CSL styles available.
 
 https://github.com/citation-style-language/styles
 
