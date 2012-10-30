@@ -8,7 +8,7 @@ It resuses [citeproc-php](https://bitbucket.org/rjerome/citeproc-php), a PHP imp
 
 ## Styles
 
-Due to local needs at the Univeirsty, CiteProc-PUB works with a local copy and a subset of the CSL styles available.
+Due to local needs, CiteProc-PUB works with a local copy and a subset of the CSL styles available.
 
 https://github.com/citation-style-language/styles
 
