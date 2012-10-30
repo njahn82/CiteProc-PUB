@@ -1,0 +1,103 @@
+<html>
+  <head>
+    <title></title>
+    <meta content="">
+    <style></style>
+  </head>
+  <body>
+    <form action="CiteProc.php" method="POST" accept-charset="UTF-8">
+      <table>
+        <tr>
+          <td>
+            <label for="style">CSL-Stil:</label>
+          </td>
+          <td>
+            <select name="style">
+                <option value="ama">ama</option>
+                <option value="apa">apa</option>
+                <option value="apsa">apsa</option>
+                <option value="aps">aps</option>
+                <option value="bio1">bio1</option>
+                <option value="ewi">ewi</option>
+                <option value="harvard1">harvard1</option>
+                <option value="ieee">ieee</option>
+                <option value="mla">mla</option>
+                <option value="wels">wels</option>
+            </select>
+          </td>
+        </tr>
+          <td>
+            <label for="style">Ausgabeformat:</label>
+          </td>
+          <td>
+            <select name="format">
+                <option value="html">html</option>
+                <option value="plain">plain</option>
+                <option value="rtf">rtf</option>
+                <option value="tex">tex</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="input">JSON-formatiertes Eingabe-Array:</label>
+          </td>
+          <td>
+            <textarea name="input" cols="150" rows="40">[
+    {
+        "author": [
+            {"family": "Pieper",  "given": "Dirk",      "static-ordering": false},
+            {"family": "Summann", "given": "Friedrich", "static-ordering": false}
+        ],
+        "id": "1680979", 
+        "issued": {
+            "date-parts": [
+                [
+                    "2006"
+                ]
+            ]
+        }, 
+        "container-title": "Library Hi Tech",
+        "title": "Bielefeld Academic Search Engine (BASE) An end-user oriented institutional repository search service", 
+        "type": "article-journal",
+        "volume": "24",
+        "issue": "4",
+        "keyword": "Science General"
+    }, 
+    {
+        "author": [
+            {"family": "Summann", "given": "Friedrich",  "static-ordering": false}
+        ], 
+        "id": "1680919", 
+        "issued": {
+            "date-parts": [
+                [
+                    "1998"
+                ]
+            ]
+        }, 
+        "title": "Das Internet-basierte Bibliotheksinformationssystem in der Bibliothek der Universität Bielefeld", 
+        "type": "article-journal",
+        "URL": "http://www.springerlink.com/content/fbun7wvrh7hg6tcx/fulltext.pdf",
+        "container-title": "Informatik, Forschung und Entwicklung",
+        "volume": "13",
+        "issue": "3",
+        "keyword": "Science General"
+    }
+]</textarea>
+          </td>
+          <td>
+        </tr>
+        <tr>
+          <td>
+            <label for="input">Zitation anfordern:</label>
+          </td>
+          <td>
+            <input type="submit" value="Go!" />
+          </td>
+          <td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
