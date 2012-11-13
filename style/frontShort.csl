@@ -165,7 +165,6 @@
                <text macro="edition" prefix=" " suffix="."/>
             </else-if>
             <else-if type="chapter paper-conference" match="any">
-               <text macro="title" prefix="__LINE_BREAK__" suffix="."/>
                <group prefix=" ">
                   <choose>
                      <if variable="container-title">
